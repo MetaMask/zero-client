@@ -1,5 +1,5 @@
 zeroClient:
-  image: kumavis/metamask-zeroclient
+  image: kumavis/zeroclient
   restart: always
   environment:
     VIRTUAL_HOST: "zero.metamask.io"
