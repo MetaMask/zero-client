@@ -1,0 +1,25 @@
+{
+  "name": "metamask-zeroclient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "iframe": "^0.3.1",
+    "web3": "^0.15.1",
+    "wzrd": "^1.3.1"
+  },
+  "dependencies": {
+    "browserify": "^12.0.1",
+    "express": "^4.13.3",
+    "iframe": "^0.3.1",
+    "iframe-stream": "^1.0.1",
+    "web3-provider-engine": "^2.0.0",
+    "web3-stream-provider": "^1.1.0"
+  }
+}
