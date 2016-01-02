@@ -19,6 +19,9 @@ function IframeProvider(opts) {
   provider.pipe(iframeStream).pipe(provider)
 
   this.sendAsync = provider.sendAsync.bind(provider)
+
+  iframe.addEventListener('load', function(){ console.log('saw iframe loaded') })
+  iframe.onload = function(){ console.log('saw iframe loaded janko') }
 }
 
 IframeProvider.prototype.send = function(){

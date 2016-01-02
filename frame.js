@@ -2,7 +2,7 @@ const ZeroClientProvider = require('./zero-provider.js')
 const ParentStream = require('iframe-stream').ParentStream
 const StreamHandler = require('web3-stream-provider/handler.js')
 
-
+console.log('yes, this is iframe')
 initializeZeroClient()
 
 

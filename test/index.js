@@ -3,11 +3,11 @@ const PORT_MAIN = 9000
 const PORT_FRAME = 9001
 
 wzrd.http({
-  entries: [{from: 'index.js', to: 'app.js'}]
+  entries: [{from: 'index.js', to: 'bundle.js'}]
 }).listen(PORT_MAIN, listening)
 
 wzrd.http({
-  entries: [{from: 'frame.js', to: 'app.js'}]
+  entries: [{from: 'frame.js', to: 'bundle.js'}]
 }).listen(PORT_FRAME, listening)
 
 function listening(err) {

@@ -1,9 +1,12 @@
 const IframeProvider = require('./iframe-provider.js')
 const Web3 = require('web3')
 
+var provider = getProvider()
+var web3 = new Web3(provider)
+web3.currentProvider = provider
+web3.setProvider = function noop(){}
 
-global.web3 = new Web3(getProvider())
-
+global.web3 = web3
 
 
 function getProvider(){
@@ -19,5 +22,7 @@ function getProvider(){
       sandboxAttributes: ['allow-scripts', 'allow-popups', 'allow-same-origin'],
     })
   }
+
+  return provider
 
 }
