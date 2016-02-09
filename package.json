@@ -19,7 +19,7 @@
     "express": "^4.13.3",
     "iframe": "^0.3.1",
     "iframe-stream": "^1.0.1",
-    "web3-provider-engine": "^2.0.0",
+    "web3-provider-engine": "^3.1.2",
     "web3-stream-provider": "^1.1.0"
   }
 }
