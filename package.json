@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no tests yet\" && exit 0",
-    "start": "node server.js"
+    "start": "./example.sh"
   },
   "author": "",
   "license": "ISC",
@@ -16,10 +16,13 @@
   },
   "dependencies": {
     "browserify": "^12.0.2",
+    "ethereumjs-tx": "^1.1.1",
     "express": "^4.13.4",
     "iframe": "^0.3.1",
     "iframe-stream": "^1.0.1",
-    "web3-provider-engine": "^5.1.0",
-    "web3-stream-provider": "^1.1.0"
+    "mississippi": "^1.2.0",
+    "web3": "^0.15.3",
+    "web3-provider-engine": "^7.6.6",
+    "web3-stream-provider": "^2.0.1"
   }
 }
