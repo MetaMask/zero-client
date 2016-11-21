@@ -10,19 +10,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "iframe": "^0.3.1",
-    "web3": "^0.15.1",
+    "iframe": "^1.0.0",
+    "web3": "^0.16.0",
     "wzrd": "^1.3.1"
   },
   "dependencies": {
-    "browserify": "^12.0.2",
+    "browserify": "^13.1.1",
     "ethereumjs-tx": "^1.1.1",
     "express": "^4.13.4",
-    "iframe": "^0.3.1",
+    "iframe": "^1.0.0",
     "iframe-stream": "^1.0.1",
     "mississippi": "^1.2.0",
-    "web3": "^0.15.3",
-    "web3-provider-engine": "^7.6.6",
+    "web3": "^0.16.0",
+    "web3-provider-engine": "^8.1.7",
     "web3-stream-provider": "^2.0.1"
   }
 }
